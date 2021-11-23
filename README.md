@@ -6,6 +6,11 @@
 MQTT.js is a client library for the [MQTT](http://mqtt.org/) protocol, written
 in JavaScript for node.js and the browser.
 
+This package is just for react-native. Make sure the protocol is mqtt, mqtts, or ws, wss.
+
+Note: tcp is not supported for now.
+
+
 ## Table of Contents
 * [__MQTT.js vNext__](#vnext)
 * [Upgrade notes](#notes)
@@ -790,7 +795,7 @@ Before you can begin using these TypeScript definitions with your project, you n
  * Set tsconfig.json: `{"compilerOptions" : {"moduleResolution" : "node"}, ...}`
  * Includes the TypeScript definitions for node. You can use npm to install this by typing the following into a terminal window:
    `npm install --save-dev @types/node`
-   
+
 ### Typescript example
 ```
 import * as mqtt from "mqtt"
